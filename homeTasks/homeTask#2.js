@@ -1,9 +1,16 @@
 
 // Task#1
 // let userNumber = prompt();
-// if (isNaN(userNumber)) {
-//   console.log("Нужно писать число"); 
+
+// if (userNumber === 0) {
+//   console.log('ошибка, введен 0');
+// } else if (userNumber < 0){
+//   console.log('ошибка, число меньше 0');
+// } else if (isNaN(userNumber)) {
+//   console.log('ошибка, введены неверные данные');
 // }
+
+
 // for(let i = 1; i < userNumber; i++) {
 //   if( i%4===0) continue;
 //   console.log(i);
@@ -12,35 +19,71 @@
 
 
 // Task#2
+
 // let userNumber = prompt();
-//   if (isNaN(userNumber)) {
-//     console.log("Нужно писать число"); 
-//   }
+
+// if (userNumber === 0) {
+//   console.log('ошибка, введен 0');
+// } else if (userNumber < 0){
+//   console.log('ошибка, число меньше 0');
+// } else if (isNaN(userNumber)) {
+//   console.log('ошибка, введены неверные данные');
+// }
+
+
 // let userNumberFactorial = 1;
 // while (userNumber > 1){
 //     userNumberFactorial = userNumberFactorial * userNumber;
 //     userNumber = userNumber - 1;
 // }
-// console.log (userNumberFactorial);
 
-// если введешь строку, после "нужно писать число" однерку напишет. Не знаю как поправить
-
+// if (isNaN(userNumber)) {
+//   console.log();
+// } else if (userNumber === 0) {
+//   console.log();
+// } else if (userNumber < 0){
+//   console.log();
+// } else {
+//   console.log(userNumberFactorial);
+// }
 
 // Task#3
 // let userNumber = prompt("Введите число");
+
+// if (userNumber === 0) {
+//   console.log('ошибка, введен 0');
+// } else if (userNumber < 0){
+//   console.log('ошибка, число меньше 0');
+// } else if (isNaN(userNumber)) {
+//   console.log('ошибка, введены неверные данные');
+// }
+
+
 // let userNumberDegree = prompt("Введите его степень");
 
-// if (isNaN(userNumber&&userNumberDegree)) {
-//     console.log("Нужно писать число"); 
+// if (userNumberDegree === 0) {
+//   console.log('ошибка, введен 0');
+// } else if (userNumberDegree < 0){
+//   console.log('ошибка, число меньше 0');
+// } else if (isNaN(userNumberDegree)) {
+//   console.log('ошибка, введены неверные данные');
 // }
-// for( ; userNumberDegree > 1; ) {
-//   userNumber = userNumber * userNumber;
-//   userNumberDegree = userNumberDegree - 1;
+
+// let result = 1
+    
+// for(i = 0; userNumberDegree > i; i++) {
+//   result *= userNumber;
 // }
-// console.log(userNumber);
 
-// тут так же как и во втором
-
+// if (isNaN(userNumber)) {
+//   console.log();
+// } else if (userNumber === 0) {
+//   console.log();
+// } else if (userNumber < 0){
+//   console.log();
+// } else {
+//   console.log(result);
+// }
 
 // Task#5
 // let rand = Math.floor(1 + Math.random() * 10);
